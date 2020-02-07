@@ -1,0 +1,5 @@
+-r requirements.txt
+-r requirements-test.txt
+jupyter-client==5.3.4
+jupyter-core==4.6.1
+coverage==4.5.4

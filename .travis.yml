@@ -1,0 +1,8 @@
+language: python
+python:
+  - "3.7"
+install:
+  - cp contrib/env.sample .env # To not broken decouple
+  - pip install -q -r requirements-test.txt
+script:
+  - python manage.py test --noinput --failfast --parallel
